@@ -81,10 +81,11 @@
     }
 
     .slide img {
-      width: 100%;
-      height: auto;
-      border-radius: 15px;
-      display: block;
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* centers the image */
+}
     }
 
     .fade {
@@ -190,15 +191,18 @@
 
 <body>
 
-  <div class="card">
+ <div class="card">
 
-    <!-- Slideshow -->
-    <div class="slideshow-container">
-      <div class="slide fade">
-        <img src="IMG_5085.JPG" alt="Anisha 1" width="50%">
-      </div>
+  <!-- Slideshow -->
+  <div class="slideshow-container">
+    <div class="slide fade">
+      <img src="IMG_5085.JPG" alt="Anisha 1" class="slide-img">
     </div>
+  </div>
+</div>
 
+
+  
     <!-- Dictionary-style Name -->
     <div class="dictionary-entry">
       <h1>Anisha Verma</h1>
